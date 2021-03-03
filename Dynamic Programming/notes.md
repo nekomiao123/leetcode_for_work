@@ -1,4 +1,4 @@
-# Dynamic programming Notes
+# Dynamic programming Notes One
 
 [The link](https://www.youtube.com/watch?v=oBt53YbR9Kk)
 
