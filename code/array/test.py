@@ -20,8 +20,9 @@ class Solution:
 if __name__ == '__main__':
     nums = [1,3,5,6]
     target = 7 
-    solution = Solution()
-    solution.searchInsert(nums, target)
+    a = 'c'
+    b = a or 'ab'
+    print(b)
 
 
 
