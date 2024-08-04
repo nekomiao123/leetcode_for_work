@@ -16,5 +16,22 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
+        if root is None:
+            return
+
+        self.flatten(root.left)
+        self.flatten(root.right)
+
+        left = root.left
+        right = root.right
+
+        root.left = None
+        root.right = left
+
+        p = root
+        while p.right is not None:
+            p = p.right
+        p.right = right
+        
 # @lc code=end
 
